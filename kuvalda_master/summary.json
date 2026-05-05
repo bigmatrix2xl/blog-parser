@@ -1,0 +1,12 @@
+{
+  "articles": 406,
+  "images_total": 6392,
+  "include": 1830,
+  "review": 3533,
+  "skip": 1029,
+  "downloaded_files": 5363,
+  "downloaded_include_review": 5363,
+  "articles_csv": "/Users/vladimirpylov/kuvalda_automation_kit/kuvalda_master/kuvalda_articles.csv",
+  "html_report": "/Users/vladimirpylov/kuvalda_automation_kit/kuvalda_master/kuvalda_image_report.html",
+  "downloaded_dir": "/Users/vladimirpylov/kuvalda_automation_kit/kuvalda_master/downloaded_images"
+}
