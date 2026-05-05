@@ -1,0 +1,17 @@
+Open this folder and use it as the source of truth.
+
+Your task:
+1. Inspect all files in the folder, especially `CURSOR_RUNBOOK.md` and `kuvalda_blog_audit_scraper.py`.
+2. Set up the local Python environment.
+3. Install dependencies.
+4. Run the scraper against the Kuvalda blog.
+5. If crawling/parsing fails, fix the code and retry.
+6. Produce a real local export folder with downloaded images, `kuvalda_image_report.html`, `kuvalda_articles.csv`, and summary files.
+7. Keep classification conservative: if unsure, mark `review` and download.
+8. When finished, summarize exactly what you changed, what was produced, and what still needs manual review.
+
+Important:
+- Do not give me a mock answer.
+- Do not stop after describing a plan.
+- Actually run the code and iterate until it works locally.
+- Use the business rules and acceptance criteria from `CURSOR_RUNBOOK.md`.

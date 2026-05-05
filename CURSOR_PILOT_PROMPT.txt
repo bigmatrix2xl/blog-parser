@@ -1,0 +1,35 @@
+Read the entire project folder first and use it as the source of truth.
+
+Your task is to perform a real pilot run for the Kuvalda blog image audit project.
+
+Do this exactly:
+1. Read all project files, especially:
+   - `CURSOR_AGENT_RULES.md`
+   - `CURSOR_RUNBOOK.md`
+   - `kuvalda_blog_audit_scraper.py`
+   - `sample_manifest.csv`
+2. Set up a local Python environment.
+3. Install dependencies.
+4. Run the scraper on only 5 to 8 articles.
+5. If the scraper fails, debug it, fix it, and rerun it.
+6. Produce a real local output folder with downloaded images, `kuvalda_image_report.html`, and `kuvalda_articles.csv`.
+7. Keep uncertain images as `review` and download them.
+8. Do not stop after planning. Execute until there is a real result.
+
+Success criteria:
+- pilot run completed locally
+- images downloaded
+- HTML report and articles CSV generated
+- concise report written with paths, counts, and fixes made
+
+When finished, give me a short final report in this format:
+
+### Pilot run completed
+- Articles processed: X
+- Images downloaded: X
+- Include: X
+- Review: X
+- Skip: X
+- Output folder: `...`
+- Code/files changed: `...`
+- Remaining manual review points: `...`
